@@ -11,7 +11,7 @@ def main():
     client   = FortyTwoGoals()
     consumer = oauth.OAuthConsumer(APP_KEY, APP_SECRET)
     signature_method_plaintext = oauth.OAuthSignatureMethod_PLAINTEXT()
-    signature_method_hmac_sha1 = oauth.OAuthSignatureMethod_HMAC_SHA1()
+    #signature_method_hmac_sha1 = oauth.OAuthSignatureMethod_HMAC_SHA1()
 
     # Get Request Token
     oauth_request = oauth.OAuthRequest.from_consumer_and_token(
